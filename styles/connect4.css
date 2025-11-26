@@ -1,0 +1,51 @@
+body {
+    font-family: Roboto, Arial;
+    text-align: center;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 10px solid navy;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
+.back-button {
+  background-color: lightpink;
+  display: inline-block;
+  font-family: Roboto, Arial;
+  font-size: 28px;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  padding: 5px;
+  background-color: rgb(240, 240, 240);
+  border-width: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(88, 87, 87);
+  cursor: pointer;
+}

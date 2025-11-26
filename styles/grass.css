@@ -1,0 +1,45 @@
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+}
+
+.header-text {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.touch-grass-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.grass-icon {
+  width: 700px;
+  cursor: pointer;
+}
+
+.count {
+  font-size: 40px;
+  margin-top: 20px;
+} 
+
+.back-button {
+  display: inline-block;
+  font-family: Roboto, Arial;
+  font-size: 28px;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  padding: 5px;
+  background-color: rgb(240, 240, 240);
+  border-width: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(88, 87, 87);
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Math Trivia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Puzzle</title>
+    <link rel="stylesheet" href="styles/math-trivia.css">
+  </head>
+  <body>
+    <div class="back-button">
+      <a style="color:black; 
+      text-decoration: none;" href = "mainpage.html">
+        Back
+      </a>
+      </div>
+  <div class="container">
+
+    <div class="math-box">
+    <div class="number top">98765432</div>
+    <div class="number operation">× 9/8</div>
+    <hr>
+
+    <input 
+      id="answerInput" 
+      type="number" 
+      placeholder="aaaaaaaaa (9 same digits)"
+    >
+
+    <button onclick="checkAnswer()">Check Answer</button>
+
+    <p id="result" class="message"></p>
+    </div>
+
+  </div>
+  </body>
+  <script src="scripts/math-trivia.js"></script>
+</html>

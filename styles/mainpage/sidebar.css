@@ -1,0 +1,92 @@
+.sidebar {
+  background-color: white;
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+
+/* Sidebar hidden state */
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+/* Smooth animation */
+.sidebar {
+  transition: transform 0.3s ease;
+}
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.sidebar-link img {
+  height: 60px;
+}
+
+.connect-four-button,
+.sum-67-button,
+.math-trivia-button,
+.grass-button,
+.school-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.connect-four-button .tooltip-2,
+.sum-67-button .tooltip-2,
+.math-trivia-button .tooltip-2,
+.grass-button .tooltip-2,
+.school-button .tooltip-2 {
+  display: flex;
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 14px;
+  right: -113px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.sum-67-button .tooltip-2 {
+  right: -125px;
+}
+
+.math-trivia-button .tooltip-2 {
+  right: -152px;
+}
+.grass-button .tooltip-2 {
+  right: -105px;
+}
+
+.school-button .tooltip-2 {
+  right: -105px;
+}
+
+.connect-four-button:hover .tooltip-2,
+.sum-67-button:hover .tooltip-2,
+.math-trivia-button:hover .tooltip-2,
+.grass-button:hover .tooltip-2,
+.school-button:hover .tooltip-2 {
+  opacity: 1;
+}

@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.math-box {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.number {
+  letter-spacing: 3px;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 18px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 22px;
+  margin-top: 12px;
+  height: 28px; /* prevents layout shift */
+}
+
+.back-button {
+  display: inline-block;
+  font-family: Roboto, Arial;
+  font-size: 28px;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  padding: 5px;
+  background-color: rgb(240, 240, 240);
+  border-width: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(88, 87, 87);
+  cursor: pointer;
+}
